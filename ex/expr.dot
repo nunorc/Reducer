@@ -1,0 +1,7 @@
+digraph auto {
+rankdir=LR;
+size="7,5";
+node [shape = circle];
+"a" -> "P0" [ label ="1" ];
+"P0" -> "P0" [ label ="2" ];
+}

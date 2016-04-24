@@ -10,7 +10,7 @@ For a live demo visit: http://reducer.nrc.pt.
 
 ### Using ghci
 
-Using ghci, to reduce the sequence ["a","a","b","c","a","b","c"]:
+Using ghci, to reduce the sequence `["a","a","b","c","a","b","c"]`:
 
     *Reducer> let (expr,patterns) = reduce ["a","a","b","c","a","b","c"]
 
@@ -26,18 +26,18 @@ And the patterns found are:
 
 ### Using the command line
 
-You can use the main.hs program to build a GraphViz representation of the reduced
-expression. The input expression shoud be stored in a JSON file:
+You can use the *main.hs* program to build a GraphViz representation of the reduced
+expression. The input expression should be stored in a JSON file:
 
     $ cat ex/input.json 
     ["a","a","b","c","a","b","c"]
 
-run the program using for example runhaskell, giving as argument the input file,
+run the program using for example *runhaskell*, giving as argument the input file,
 and saving the output to a new file:
 
     $ runhaskell main.hs ex/input.json > ex/expr.dot
 
-Now use the dot tool from GrpahViz to create a png file for example:
+Now use the *dot* tool from GraphViz to create a *PNG* file for example:
 
     $ dot -Tpng ex/expr.dot > ex/expr.png
 

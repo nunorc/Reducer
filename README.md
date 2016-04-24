@@ -1,8 +1,10 @@
 
 # Reducer
 
-A simple tool developed in Haskell to reduce a sequence of elements, represented by strings,
-to a simple expression by finding repeating patterns.
+A simple tool developed in Haskell to reduce a sequence of elements,
+represented by strings, to a simple expression by finding repeating patterns.
+
+For a live demo visit: http://reducer.nrc.pt.
 
 ## Example
 
@@ -42,3 +44,8 @@ Now use the dot tool from GrpahViz to create a png file for example:
 You should see something similar to the image below:
 
 ![Example](ex/expr.png)
+
+## About
+
+Developed by: Almeida, J.J, Oliveira, J.N., and Carvalho, N.R.
+
